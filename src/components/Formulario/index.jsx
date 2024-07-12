@@ -15,7 +15,7 @@ const Formulario = ({setImc}) => {
         <div className="container">
             <form className={styles.formulario}>
                 <input className={styles.formulario__input} type="number" placeholder="Digite seu peso" onChange={({target}) => setPeso(parseFloat(target.value))} onBlur={calculaImc}/>
-                <input className={styles.formulario__input} type="number" placeholder="Digite sua altura"  onChange={({target}) => setAltura(parseFloat(target.value))} onBlur={calculaImc}/>
+                <input className={styles.formulario__input} type="number" placeholder="Digite sua altura ex(1.75)"  onChange={({target}) => setAltura(parseFloat(target.value))} onBlur={calculaImc}/>
             </form>
 
         </div>
