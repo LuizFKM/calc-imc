@@ -1,0 +1,37 @@
+.tabela {
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: rgb(245, 245, 245);
+    font-family: sans-serif; 
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabela__header{
+    background-color: #004594; 
+    color: #fff;
+}
+
+.tabela__resultado{
+    font-weight: bold;
+    color: #004594;
+}
+
+.tabela__item, 
+.tabela__item__active, 
+.tabela__resultado {
+    padding: 10px;
+    border-bottom: solid 2px #ffffff;
+    text-align: center;
+}
+
+.tabela__item__active {
+    background-color: rgb(0, 109, 18);
+    color: #fff;
+}
+
+.calculando__imc{
+    font-family: sans-serif;
+    color:#004594;
+    text-align: center;
+}

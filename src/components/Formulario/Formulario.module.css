@@ -1,0 +1,11 @@
+.formulario{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario__input {
+    padding: 10px;
+    align-items: center;
+    margin: 8px;
+}
